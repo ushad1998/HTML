@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function lastDigit()
+{
+var num = parseInt(document.getElementById("num").value);
+var x = num%10;
+document.getElementById("last").innerHTML="Last Digit is : "+x;
+}
+</script>
+</head>
+<body>
+Enter Number : <input type="text" id="num"/>
+<button onclick="lastDigit()"> Last Digit </button>
+<p id="last"> </p>
+</body>
+</html>

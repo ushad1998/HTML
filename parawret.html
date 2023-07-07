@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function add(a, b){
+var c = a+b;
+return "Sum = "+c;
+}
+function calculate(){
+document.getElementById("sum").innerHTML = add(10, 20);
+}
+</script>
+</head>
+<body>
+<button onclick="calculate()">Add</button>
+<p id="sum"> </p>
+</body>
+</html>

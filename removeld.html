@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function removeLastDigit()
+{
+var num = parseInt(document.getElementById("num").value);
+var n = Math.floor(num/10);
+document.getElementById("last").innerHTML = "Now n is : " + n ;
+}
+</script>
+</head>
+<body>
+Enter Number : <input type="text" id="num"/>
+<button onclick="removeLastDigit()"> Remove Last Digit </button>
+<p id="last"> </p>
+</body>
+</html>
